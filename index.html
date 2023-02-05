@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="sh ortcut icon" href="./images/icons8-cd-48.png" type="image/x-icon">
+  <title>Password Genarator</title>
+  <!-- normalize css -->
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+<div class="container">
+  <h2 class="heading">Random password Generator</h2>
+
+<form action="#" id="frm">
+  <div class="form-group">
+    <input type="text" id="output" class="box-one">
+    <button class="btn-copy" id="btn-copy">Copy</button>
+  </div>
+
+  <div class="form-group">
+    
+    <label class="length" for="length">Password Length</label>
+    <input type="number" id="length" min="6" max="8" value="6">
+   
+  </div>
+
+  <div class="form-group">
+    <input type="checkbox" id="numbers">
+    <label for="number">Number</label>
+   
+  </div>
+
+  <div class="form-group">
+    <input type="checkbox" id="capital">
+    <label for="capital">Capital letters</label>
+   
+  </div>
+
+  <div class="form-group">
+    <input type="checkbox" id="small">
+    <label for="small">Small letters</label>
+    
+  </div>
+
+  <div class="form-group">
+    <input type="checkbox" id="symbols">
+    <label for="symbols">Symbols</label>
+  </div>
+
+  <div class="form-group">
+    <button id="btn-submit" class="btn-smt">Generator Password</button>
+  </div> 
+  <div class="social-icons">
+    <a  href="#"></a>
+  </div>
+
+
+</form>
+</div>
+
+<!-- custom script -->
+ <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display+SC&display=swap');                         
+
+*,*::after,
+::before{
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+html{
+  font-size: 16px;
+
+}
+:root{
+  --clr-white:white;
+  --clr-black:black;
+  --amber-yellow: #ffbe0bff;
+--orange-pantone: #fb5607ff;
+--winter-pink: #ff006eff;
+--blue-violet: #8338ecff;
+--azure-blue: #3a86ffff;
+--clr-box-shadow: 0px 22px 12px rgba(0,0,0,0.15);
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../images/image-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* global css */
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+a{
+text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+.container{
+  width: 300px;
+  min-width: 0%;
+  padding: 1rem;
+  background-image: url(../images/image-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  
+}
+
+h2{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+input{
+  padding: 0.2rem;
+  border: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 2px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.form-group{
+  margin: 20px 6px;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+}
+
+label{
+margin-top: 3px;
+font-size: 18px;
+font-weight: 400;
+}
+
+.btn-copy{
+  background-color:yellow;
+  transition-duration: 0.25s;
+  outline: 1px solid white;
+  color: black;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-smt{
+  width: 95%;
+  padding: 1rem;
+  background-color:yellow;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  transition-duration: 0.25s;
+  outline: 2px solid #fff;
+}
+
+.btn-smt:hover {
+  outline-offset: 4px;
+}
+.btn-copy:hover {
+  outline-offset: 2px;
+  color: white;
+  background-color: red;
+}
+
+.btn-smt:hover {
+  background-color:red;
+  color: white
+  ;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width:700px) {
+
+
+
+
+   .box-one{
+  width: 100%;
+  padding:0.50rem 4rem;
+  }
+
+  .btn-copy{
+  width: 30%;
+  font-size: 12px;
+
+  }
+  .length{
+  font-size: 14px;
+  width: 100%;
+  margin-top: 10px;
+  }
+
+
+  .form-group{
+font-size: 13px;
+font-weight:300;
+  }
+
+  .btn-smt{
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+
+
+
+
